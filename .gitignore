@@ -1,0 +1,37 @@
+# --- Java / Maven / Gradle (for when the project code lands) ---
+target/
+build/
+!**/src/**/target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+
+# --- IDEs ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / runtime ---
+*.log
+logs/
+
+# --- Env / secrets ---
+.env
+.env.*
+*.local
+
+# --- Docker / local data (Phase 3/4) ---
+docker-compose.override.yml
+pgdata/
