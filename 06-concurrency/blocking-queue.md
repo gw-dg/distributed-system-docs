@@ -660,7 +660,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 public class WordCounter {
-    private static final String POISON = " POISON";
+    private static final String POISON = "POISON";
 
     public static void main(String[] args) throws InterruptedException {
         String[] sentences = {
